@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!'
-		python3 --version
+		sh label: '', script: 'python3 --version'
             }
         }
     }
