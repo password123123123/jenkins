@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Hello world!'
 		sh label: '', script: 'ls -lta'
+		sh label: '', script: 'pwd'
             }
         }
     }
